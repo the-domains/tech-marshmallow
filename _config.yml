@@ -1,28 +1,40 @@
-name: 'Tech Marshmallow '
-favicon: null
-layout_spectrum: 0.647497744532302
-typography_spectrum: 0.45590997277759016
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+layout_spectrum: 0.9175627
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.8097553956322372
+  brandStrength: 0.09299236279912293
+  rhythmicContrast: 0.04179102461785078
   brandColors:
     - '#ADD7F6'
     - '#87BFFF'
     - '#3F8EFC'
     - '#2667FF'
     - '#3B28CC'
-  brandStrength: 0.09299236279912293
   lightness: 0.6821379065513611
-  saturation: 0.8097553956322372
-  rhythmicContrast: 0.04179102461785078
-purpose: []
+typography_spectrum: 0.9982079
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: 'Tech Marshmallow '
